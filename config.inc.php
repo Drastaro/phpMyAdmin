@@ -28,7 +28,7 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'database';
+$cfg['Servers'][$i]['host'] = 'localhost';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
@@ -106,7 +106,6 @@ $cfg['SaveDir'] = '';
  * default = 'blob'
  */
 //$cfg['ProtectBinary'] = false;
-
 /**
  * Default language to use, if not browser-defined or user-defined
  * (you find all languages in the locale folder)
